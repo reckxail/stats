@@ -1,3 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción breve de tu página">
+    <meta name="author" content="Tu Nombre">
+    <title>Título de tu Página</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo CSS -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon opcional -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi página</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Sección 1</a></li>
+                <li><a href="#seccion2">Sección 2</a></li>
+                <li><a href="#seccion3">Sección 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
 <?php
 include('conexion.php');
 
@@ -63,3 +89,14 @@ if ($resultado->num_rows > 0) {
 // Cerrar la conexión
 $conexion->close();
 ?>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Enlace a tu archivo JavaScript -->
+</body>
+</html>
